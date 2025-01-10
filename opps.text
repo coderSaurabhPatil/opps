@@ -14,3 +14,142 @@ Encourages code reusability through inheritance and polymorphism.
 Enhances code maintainability and debugging by modularizing programs.
 Provides better security with encapsulation and abstraction.
 Improves collaboration in team-based projects by defining clear object roles.
+
+
+3. What are some major Object-Oriented Programming languages?
+Java
+C++
+Python
+C#
+Ruby
+Swift
+PHP
+
+
+4. What are some other programming paradigms other than OOPs?
+Procedural Programming: Focuses on step-by-step instructions (e.g., C).
+Functional Programming: Emphasizes pure functions and immutability (e.g., Haskell, Scala).
+Logic Programming: Based on rules and logical relationships (e.g., Prolog).
+Event-driven Programming: Reacts to events (e.g., JavaScript).
+
+
+
+5. What is meant by Structured Programming?
+Structured Programming is a paradigm focused on organizing code using well-defined control 
+structures like loops, conditions, and subroutines. It avoids the use of unstructured jumps like 
+goto, ensuring better readability and maintainability. Examples include C and Pascal.
+
+
+
+6. What are the main features of OOPs?
+Encapsulation: Combines data and methods in one unit (class) and restricts direct access to data.
+Inheritance: Allows a class (child) to inherit properties and methods from another class (parent).
+Polymorphism: Enables methods to have different implementations depending on the object calling them (e.g., method overriding).
+Abstraction: Hides unnecessary implementation details from the user and only exposes essential functionalities.
+Classes and Objects: A class is a blueprint, while an object is an instance of that class.
+
+
+
+7. What are some advantages of using OOPs?
+Reusability: Code can be reused across projects using inheritance.
+Modularity: Code is broken into manageable classes and objects.
+Security: Data hiding prevents unauthorized access to sensitive information.
+Scalability: Easy to extend programs by adding new classes and objects.
+Real-world Modeling: Simplifies complex problems by modeling them as objects.
+
+
+
+
+1. What is meant by the term OOPs?
+Object-Oriented Programming (OOPs) is a programming paradigm that uses objects to represent data and methods. An object is an instance of a class, which serves as a blueprint for creating objects. OOP promotes concepts like encapsulation, inheritance, polymorphism, and abstraction to build modular and reusable code.
+
+2. What is the need for OOPs?
+OOPs is essential because:
+
+It models real-world entities, making problem-solving intuitive.
+Encourages code reusability through inheritance and polymorphism.
+Enhances code maintainability and debugging by modularizing programs.
+Provides better security with encapsulation and abstraction.
+Improves collaboration in team-based projects by defining clear object roles.
+3. What are some major Object-Oriented Programming languages?
+Java
+C++
+Python
+C#
+Ruby
+Swift
+PHP
+4. What are some other programming paradigms other than OOPs?
+Procedural Programming: Focuses on step-by-step instructions (e.g., C).
+Functional Programming: Emphasizes pure functions and immutability (e.g., Haskell, Scala).
+Logic Programming: Based on rules and logical relationships (e.g., Prolog).
+Event-driven Programming: Reacts to events (e.g., JavaScript).
+5. What is meant by Structured Programming?
+Structured Programming is a paradigm focused on organizing code using well-defined control structures like loops, conditions, and subroutines. It avoids the use of unstructured jumps like goto, ensuring better readability and maintainability. Examples include C and Pascal.
+
+6. What are the main features of OOPs?
+Encapsulation: Combines data and methods in one unit (class) and restricts direct access to data.
+Inheritance: Allows a class (child) to inherit properties and methods from another class (parent).
+Polymorphism: Enables methods to have different implementations depending on the object calling them (e.g., method overriding).
+Abstraction: Hides unnecessary implementation details from the user and only exposes essential functionalities.
+Classes and Objects: A class is a blueprint, while an object is an instance of that class.
+7. What are some advantages of using OOPs?
+Reusability: Code can be reused across projects using inheritance.
+Modularity: Code is broken into manageable classes and objects.
+Security: Data hiding prevents unauthorized access to sensitive information.
+Scalability: Easy to extend programs by adding new classes and objects.
+Real-world Modeling: Simplifies complex problems by modeling them as objects.
+8. Why is OOPs so popular? Explain with an example.
+OOPs is popular because it simplifies the design, development, and maintenance of complex software systems by modeling real-world entities. It ensures code reusability, maintainability, and readability.
+
+Example: Bank Account System
+Consider a banking application:
+
+Class: BankAccount
+Attributes: accountNumber, balance, ownerName
+Methods: deposit(), withdraw(), checkBalance()
+Objects: Instances like account1, account2 represent real-world bank accounts.
+Code Example in Java:
+java
+Copy code
+class BankAccount {
+    private String ownerName;
+    private double balance;
+
+    // Constructor
+    public BankAccount(String ownerName, double balance) {
+        this.ownerName = ownerName;
+        this.balance = balance;
+    }
+
+    // Methods
+    public void deposit(double amount) {
+        balance += amount;
+    }
+
+    public void withdraw(double amount) {
+        if (balance >= amount) {
+            balance -= amount;
+        } else {
+            System.out.println("Insufficient balance!");
+        }
+    }
+
+    public void checkBalance() {
+        System.out.println("Balance: " + balance);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BankAccount account1 = new BankAccount("John Doe", 1000.0);
+        account1.deposit(500.0);    // Adding money
+        account1.withdraw(200.0);  // Deducting money
+        account1.checkBalance();   // Checking balance
+    }
+}
+Why it’s Popular:
+Encapsulation: ownerName and balance are private, accessible only via methods.
+Reusability: New features like loans or savings accounts can extend BankAccount using inheritance.
+Real-world Representation: Models real-world bank accounts directly, making it intuitive for developers 
+and users alike.
