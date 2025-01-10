@@ -1,0 +1,16 @@
+1. What is meant by the term OOPs?
+Object-Oriented Programming (OOPs) is a programming paradigm that uses objects to represent data and methods.
+ An object is an instance of a class, which serves as a blueprint for creating objects. 
+ OOP promotes concepts like encapsulation, inheritance, polymorphism, and abstraction to build modular 
+ and reusable code.
+
+
+
+ 2. What is the need for OOPs?
+OOPs is essential because:
+
+It models real-world entities, making problem-solving intuitive.
+Encourages code reusability through inheritance and polymorphism.
+Enhances code maintainability and debugging by modularizing programs.
+Provides better security with encapsulation and abstraction.
+Improves collaboration in team-based projects by defining clear object roles.
